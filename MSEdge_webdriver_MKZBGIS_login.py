@@ -12,21 +12,31 @@ password = "Spinka75??"
 # Webdriver initialization
 driver = webdriver.Edge()
 driver.get(url)
+sleep(8)
 
-# Input field found by Copy > CSS Selector
-email_field = "#mat-mdc-form-field-label-2 > mat-label"
-driver.find_element(By.CSS_SELECTOR, email_field).send_keys()
-sleep(1)
+# Click on "window"
+window_selector = "body > app-root > app-content-layout > mat-drawer-container > mat-drawer-content > mat-drawer-container > mat-drawer > div > app-login > div > form > ng-scrollbar > div > div > div > div > div > div.actions > button > span.mat-mdc-button-touch-target"
+window = driver.find_element(By.CSS_SELECTOR, window_selector)
+window.click()
+sleep(2)
 
-# Input field found by Copy > CSS Selector
-password_field = "#mat-input-2"
-driver.find_element(By.CSS_SELECTOR, password_field).send_keys()
-sleep(1)
+# Email input field
+email_field_selector = "#mat-mdc-form-field-label-2 > mat-label"
+email_field = driver.find_element(By.CSS_SELECTOR, email_field_selector)
+email_field.send_keys(username)
+sleep(3)
 
-# Click "Prihlasit"
-prihlasit_button = "body > app-root > app-content-layout > mat-drawer-container > mat-drawer-content > mat-drawer-container > mat-drawer > div > app-login > div > form > ng-scrollbar > div > div > div > div > div > div.actions > button > span.mdc-button__label"
-driver.find_element(By.CSS_SELECTOR, prihlasit_button).click()
-sleep(1)
+# Password input field
+password_field_selector = "#mat-input-2"
+password_field = driver.find_element(By.CSS_SELECTOR, password_field_selector)
+password_field.send_keys(password)
+sleep(3)
+
+# Click on "Prihlasit"
+prihlasit_button_selector = "button.mdc-button:nth-child(2) > span:nth-child(2)"
+prihlasit_button = driver.find_element(By.CSS_SELECTOR, prihlasit_button_selector)
+prihlasit_button.click()
+sleep(3)
 
 print("Logged in successfully")
 

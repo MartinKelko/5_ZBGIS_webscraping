@@ -10,33 +10,26 @@ username = "bbrodian"
 password = "Spinka75??"
 
 # Webdriver initialization
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 driver.get(url)
-sleep(8)
-
-# Click on "release notes window"
-release_notes_window_selector = ".mat-mdc-dialog-actions > button:nth-child(1) > span:nth-child(2)"
-release_notes_window = driver.find_element(By.CSS_SELECTOR, release_notes_window_selector)
-release_notes_window.click()
-sleep(1)
 
 # Email input field
-email_field_selector = "#mat-input-1"
+email_field_selector = "#mat-mdc-form-field-label-2 > mat-label"
 email_field = driver.find_element(By.CSS_SELECTOR, email_field_selector)
 email_field.send_keys(username)
-sleep(2)
+sleep(3)
 
 # Password input field
 password_field_selector = "#mat-input-2"
 password_field = driver.find_element(By.CSS_SELECTOR, password_field_selector)
 password_field.send_keys(password)
-sleep(2)
+sleep(3)
 
 # Click on "Prihlasit"
-prihlasit_button_selector = "button.mdc-button:nth-child(2) > span:nth-child(2)"
+prihlasit_button_selector = "body > app-root > app-content-layout > mat-drawer-container > mat-drawer-content > mat-drawer-container > mat-drawer > div > app-login > div > form > ng-scrollbar > div > div > div > div > div > div.actions > button > span.mdc-button__label"
 prihlasit_button = driver.find_element(By.CSS_SELECTOR, prihlasit_button_selector)
 prihlasit_button.click()
-sleep(2)
+sleep(3)
 
 print("Logged in successfully")
 
