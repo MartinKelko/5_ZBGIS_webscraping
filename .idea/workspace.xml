@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="064e8be2-272a-4b70-bdca-d8b32861b04b" name="Changes" comment="feat: login to the MKZBGIS portal">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/selenium_automat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/element_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_automation_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youtube_tutorial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Firefox_webdriver_MKZBGIS_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Firefox_webdriver_MKZBGIS_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MSEdge_webdriver_MKZBGIS_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSEdge_webdriver_MKZBGIS_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +57,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Firefox_webdriver_MKZBGIS_login (1)">
+  <component name="RunManager" selected="Python.MSEdge_webdriver_MKZBGIS_login (1)">
     <configuration name="Firefox_webdriver_MKZBGIS_login (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
@@ -227,8 +214,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Firefox_webdriver_MKZBGIS_login (1)" />
         <item itemvalue="Python.MSEdge_webdriver_MKZBGIS_login (1)" />
+        <item itemvalue="Python.Firefox_webdriver_MKZBGIS_login (1)" />
         <item itemvalue="Python.new_test" />
         <item itemvalue="Python.Firefox_webdriver_MKZBGIS_login" />
         <item itemvalue="Python.Firefox_webdriver_MKZBGIS_login" />
@@ -259,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709753377696</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: login to the MKZBGIS portal">
+      <option name="closed" value="true" />
+      <created>1709753847205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709753847205</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
