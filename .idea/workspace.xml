@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="064e8be2-272a-4b70-bdca-d8b32861b04b" name="Changes" comment="feat: login to the MKZBGIS portal">
-      <change afterPath="$PROJECT_DIR$/Chrome_webdriver_MKZBGIS_login.py" afterDir="false" />
+    <list default="true" id="064e8be2-272a-4b70-bdca-d8b32861b04b" name="Changes" comment="feat: login to the MKZBGIS portal richard">
+      <change afterPath="$PROJECT_DIR$/export_tlac.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Chrome_webdriver_MKZBGIS_login">
+  <component name="RunManager" selected="Python.export_tlac">
     <configuration name="Chrome_webdriver_MKZBGIS_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
@@ -174,7 +173,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MSEdge_webdriver_MKZBGIS_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="export_tlac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +186,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\martin.kelko\PycharmProjects\selenium_automat\MSEdge_webdriver_MKZBGIS_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/export_tlac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,10 +219,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.export_tlac" />
         <item itemvalue="Python.Chrome_webdriver_MKZBGIS_login" />
         <item itemvalue="Python.MSEdge_webdriver_MKZBGIS_login (1)" />
         <item itemvalue="Python.Firefox_webdriver_MKZBGIS_login (1)" />
-        <item itemvalue="Python.Firefox_webdriver_MKZBGIS_login" />
         <item itemvalue="Python.Firefox_webdriver_MKZBGIS_login" />
       </list>
     </recent_temporary>
@@ -284,12 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709755975381</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: login to the MKZBGIS portal richard">
+      <option name="closed" value="true" />
+      <created>1709757802890</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709757802890</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: login to the MKZBGIS portal" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: login to the MKZBGIS portal" />
+    <MESSAGE value="feat: login to the MKZBGIS portal richard" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: login to the MKZBGIS portal richard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
