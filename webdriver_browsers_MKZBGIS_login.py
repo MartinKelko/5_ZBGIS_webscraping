@@ -43,7 +43,6 @@ print("Logged in successfully")
 
 driver.quit()
 
-
 # Target URL
 url_MSE = "https://test-zbgis2023.skgeodesy.sk/mkzbgis-76ad218b-8807-4c9e-9697-e534b77197a9/sk/zakladna-mapa/login?pos=48.800000,19.530000,8"
 
