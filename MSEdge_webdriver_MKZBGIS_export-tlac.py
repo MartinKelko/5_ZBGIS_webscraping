@@ -33,7 +33,7 @@ tlac_do_PDF_button = driver.find_element(By.CSS_SELECTOR, tlac_do_PDF_button_sel
 tlac_do_PDF_button.click()
 sleep(6)
 
-# double click
+# double click in Nazov input field
 double_click_selector = "/html/body/app-root/app-content-layout/mat-drawer-container/mat-drawer-content/mat-drawer-container/mat-drawer/div/app-print/div/div/mat-form-field/div[1]/div/div[2]/input"
 double_click = driver.find_element(By.XPATH, double_click_selector)
 double_click.click()

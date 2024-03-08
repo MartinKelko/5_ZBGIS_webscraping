@@ -1,13 +1,18 @@
 from selenium import webdriver
 from time import sleep
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
 
 # Target URL
 url = "https://test-zbgis2023.skgeodesy.sk/mkzbgis-76ad218b-8807-4c9e-9697-e534b77197a9/sk/zakladna-mapa?pos=48.667687,19.297270,13"
 
+# Input Variables
+nazov = "Hrochot"
+
 # Webdriver initialization
 driver = webdriver.Chrome()
 driver.get(url)
+driver.maximize_window()
 sleep(8)
 
 # Click on "release notes window"
@@ -26,7 +31,21 @@ sleep(2)
 tlac_do_PDF_button_selector = "/html/body/app-root/app-content-layout/mat-drawer-container/mat-drawer/div/app-menu/ng-scrollbar/div/div/div/div/mat-nav-list[1]/a[6]/span"
 tlac_do_PDF_button = driver.find_element(By.XPATH, tlac_do_PDF_button_selector)
 tlac_do_PDF_button.click()
-sleep(3)
+sleep(6)
+
+# double click in Nazov input field
+double_click_selector = "/html/body/app-root/app-content-layout/mat-drawer-container/mat-drawer-content/mat-drawer-container/mat-drawer/div/app-print/div/div/mat-form-field/div[1]/div/div[2]/input"
+double_click = driver.find_element(By.XPATH, double_click_selector)
+double_click.click()
+action_chains = ActionChains(driver)
+action_chains.double_click(double_click).perform()
+sleep(6)
+
+# Nazov input field
+nazov_field_selector = "/html/body/app-root/app-content-layout/mat-drawer-container/mat-drawer-content/mat-drawer-container/mat-drawer/div/app-print/div/div/mat-form-field/div[1]/div/div[2]/input"
+nazov_field = driver.find_element(By.XPATH, nazov_field_selector)
+nazov_field.send_keys(nazov)
+sleep(2)
 
 # Click on "Tlacit do PDF pre-export"
 tlac_do_PDF_button_export_selector = "/html/body/app-root/app-content-layout/mat-drawer-container/mat-drawer-content/mat-drawer-container/mat-drawer/div/app-print/div/div/button/span[2]"
