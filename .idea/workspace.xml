@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="064e8be2-272a-4b70-bdca-d8b32861b04b" name="Changes" comment="sudocodes">
+    <list default="true" id="064e8be2-272a-4b70-bdca-d8b32861b04b" name="Changes" comment="Firefox, MSEdge, and Google Chrome run continuously">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSEdge_webdriver_MKZBGIS_export-tlac.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSEdge_webdriver_MKZBGIS_export-tlac.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.logins_all_webdrivers">
+  <component name="RunManager" selected="Python.MSEdge_webdriver_MKZBGIS_export-tlac">
     <configuration name="Chrome_webdriver_MKZBGIS_export-tlac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
@@ -156,28 +157,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logins_all_webdrivers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="selenium_automat" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logins_all_webdrivers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
@@ -200,11 +179,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="webdriver_browsers_MKZBGIS_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="selenium_automat" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\martin.kelko\PycharmProjects\selenium_automat\webdriver_browsers_MKZBGIS_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.logins_all_webdrivers" />
         <item itemvalue="Python.MSEdge_webdriver_MKZBGIS_export-tlac" />
         <item itemvalue="Python.Chrome_webdriver_MKZBGIS_export-tlac" />
+        <item itemvalue="Python.webdriver_browsers_MKZBGIS_login" />
         <item itemvalue="Python.Firefox_webdriver_MKZBGIS_export-tlac (1)" />
         <item itemvalue="Python.Firefox_webdriver_MKZBGIS_export-tlac" />
       </list>
@@ -298,13 +299,22 @@
       <option name="project" value="LOCAL" />
       <updated>1709880681287</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Firefox, MSEdge, and Google Chrome run continuously">
+      <option name="closed" value="true" />
+      <created>1709898545286</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709898545286</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: login to the MKZBGIS portal" />
     <MESSAGE value="feat: login to the MKZBGIS portal richard" />
     <MESSAGE value="sudocodes" />
-    <option name="LAST_COMMIT_MESSAGE" value="sudocodes" />
+    <MESSAGE value="Firefox, MSEdge, and Google Chrome run continuously" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firefox, MSEdge, and Google Chrome run continuously" />
   </component>
 </project>
