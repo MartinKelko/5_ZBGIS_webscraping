@@ -14,10 +14,10 @@ driver = webdriver.Edge()
 driver.get(url)
 sleep(8)
 
-# Click on "window"
-window_selector = "/html/body/div[2]/div[2]/div/mat-dialog-container/div/div/app-about-modal/mat-dialog-actions/button/span[2]"
-window = driver.find_element(By.XPATH, window_selector)
-window.click()
+# Click on "release notes window"
+release_notes_window_selector = "/html/body/div[2]/div[2]/div/mat-dialog-container/div/div/app-about-modal/mat-dialog-actions/button/span[2]"
+release_notes_window = driver.find_element(By.XPATH, release_notes_window_selector)
+release_notes_window.click()
 sleep(2)
 
 # Email input field

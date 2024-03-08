@@ -1,3 +1,5 @@
+# YTB tutorial https://www.youtube.com/watch?v=-fgrIBag6AI
+
 from selenium import webdriver
 from time import sleep
 from selenium.webdriver.common.by import By
@@ -14,7 +16,8 @@ driver = webdriver.Firefox()
 driver.get(url)
 sleep(8)
 
-# Click on "release notes window"
+# Click on "release notes window" > in the URL hit F12 button (or in the browser right click on release notes window button "Pokracovat" > Inspect > choose element and copy text of the element
+# or right click on element and Copy > Copy CSS Selector etc.)
 release_notes_window_selector = ".mat-mdc-dialog-actions > button:nth-child(1) > span:nth-child(2)"
 release_notes_window = driver.find_element(By.CSS_SELECTOR, release_notes_window_selector)
 release_notes_window.click()

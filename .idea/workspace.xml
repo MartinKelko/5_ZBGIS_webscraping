@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="064e8be2-272a-4b70-bdca-d8b32861b04b" name="Changes" comment="feat: login to the MKZBGIS portal richard">
-      <change afterPath="$PROJECT_DIR$/export_tlac.py" afterDir="false" />
+    <list default="true" id="064e8be2-272a-4b70-bdca-d8b32861b04b" name="Changes" comment="sudocodes">
+      <change afterPath="$PROJECT_DIR$/Chrome_webdriver_MKZBGIS_export-tlac.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Firefox_webdriver_MKZBGIS_export-tlac.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSEdge_webdriver_MKZBGIS_export-tlac.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logins_all_webdrivers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chrome_webdriver_MKZBGIS_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chrome_webdriver_MKZBGIS_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Firefox_webdriver_MKZBGIS_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Firefox_webdriver_MKZBGIS_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSEdge_webdriver_MKZBGIS_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/MSEdge_webdriver_MKZBGIS_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/element_locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/export_tlac.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_automation_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youtube_tutorial.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,30 +53,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Firefox_ZBGIS (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Firefox_webdriver_MKZBGIS_login (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.MKZBGIS.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MSEdge_webdriver_MKZBGIS_login (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.ZBGIS_test_case_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python.element_locators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.first_automation_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.new_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tlac_ZBGIS.executor&quot;: &quot;Run&quot;,
-    &quot;Python.youtube_tutorial.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/martin.kelko/PycharmProjects/selenium_automat&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Chrome_webdriver_MKZBGIS_export-tlac.executor": "Run",
+    "Python.Chrome_webdriver_MKZBGIS_login (1).executor": "Run",
+    "Python.Firefox_ZBGIS (1).executor": "Run",
+    "Python.Firefox_webdriver_MKZBGIS_export-tlac (1).executor": "Run",
+    "Python.Firefox_webdriver_MKZBGIS_login (1).executor": "Run",
+    "Python.MKZBGIS.executor": "Run",
+    "Python.MSEdge_webdriver_MKZBGIS_export-tlac.executor": "Run",
+    "Python.MSEdge_webdriver_MKZBGIS_login (1).executor": "Run",
+    "Python.ZBGIS_test_case_login.executor": "Run",
+    "Python.element_locators.executor": "Run",
+    "Python.export_tlac.executor": "Run",
+    "Python.first_automation_test.executor": "Run",
+    "Python.logins_all_webdrivers.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.new_test.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.tlac_ZBGIS.executor": "Run",
+    "Python.youtube_tutorial.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/martin.kelko/PycharmProjects/selenium_automat",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python.export_tlac">
-    <configuration name="Chrome_webdriver_MKZBGIS_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python.logins_all_webdrivers">
+    <configuration name="Chrome_webdriver_MKZBGIS_export-tlac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +95,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\martin.kelko\PycharmProjects\selenium_automat\Chrome_webdriver_MKZBGIS_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chrome_webdriver_MKZBGIS_export-tlac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Firefox_webdriver_MKZBGIS_login (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Firefox_webdriver_MKZBGIS_export-tlac (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,7 +117,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Firefox_webdriver_MKZBGIS_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Firefox_webdriver_MKZBGIS_export-tlac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Firefox_webdriver_MKZBGIS_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Firefox_webdriver_MKZBGIS_export-tlac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\martin.kelko\PycharmProjects\selenium_automat\Firefox_webdriver_MKZBGIS_login.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\martin.kelko\PycharmProjects\selenium_automat\Firefox_webdriver_MKZBGIS_export-tlac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Firefox_webdriver_MKZBGIS_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MSEdge_webdriver_MKZBGIS_export-tlac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,7 +161,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\martin.kelko\PycharmProjects\selenium_automat\Firefox_webdriver_MKZBGIS_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MSEdge_webdriver_MKZBGIS_export-tlac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MSEdge_webdriver_MKZBGIS_login (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="logins_all_webdrivers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,29 +183,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MSEdge_webdriver_MKZBGIS_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="export_tlac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="selenium_automat" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/export_tlac.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logins_all_webdrivers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.export_tlac" />
-        <item itemvalue="Python.Chrome_webdriver_MKZBGIS_login" />
-        <item itemvalue="Python.MSEdge_webdriver_MKZBGIS_login (1)" />
-        <item itemvalue="Python.Firefox_webdriver_MKZBGIS_login (1)" />
-        <item itemvalue="Python.Firefox_webdriver_MKZBGIS_login" />
+        <item itemvalue="Python.logins_all_webdrivers" />
+        <item itemvalue="Python.MSEdge_webdriver_MKZBGIS_export-tlac" />
+        <item itemvalue="Python.Chrome_webdriver_MKZBGIS_export-tlac" />
+        <item itemvalue="Python.Firefox_webdriver_MKZBGIS_export-tlac (1)" />
+        <item itemvalue="Python.Firefox_webdriver_MKZBGIS_export-tlac" />
       </list>
     </recent_temporary>
   </component>
@@ -291,22 +288,29 @@
       <option name="project" value="LOCAL" />
       <updated>1709757802890</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: login to the MKZBGIS portal richard">
+      <option name="closed" value="true" />
+      <created>1709758231958</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709758231958</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sudocodes">
+      <option name="closed" value="true" />
+      <created>1709816047998</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709816047998</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: login to the MKZBGIS portal" />
     <MESSAGE value="feat: login to the MKZBGIS portal richard" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: login to the MKZBGIS portal richard" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/first_automation_test.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="sudocodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="sudocodes" />
   </component>
 </project>
