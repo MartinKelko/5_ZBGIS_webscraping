@@ -39,7 +39,7 @@ prihlasit_button_FF = driver.find_element(By.CSS_SELECTOR, prihlasit_button_sele
 prihlasit_button_FF.click()
 sleep(2)
 
-print("Logged in successfully")
+print("Logged in successfully in Mozzila Firefox")
 
 driver.quit()
 
@@ -79,7 +79,7 @@ prihlasit_button_MSE = driver.find_element(By.XPATH, prihlasit_button_selector_M
 prihlasit_button_MSE.click()
 sleep(3)
 
-print("Logged in successfully")
+print("Logged in successfully in Microsoft Edge")
 
 driver.quit()
 
@@ -119,6 +119,6 @@ prihlasit_button_CHR = driver.find_element(By.XPATH, prihlasit_button_selector_C
 prihlasit_button_CHR.click()
 sleep(3)
 
-print("Logged in successfully")
+print("Logged in successfully in Google Chrome")
 
 driver.quit()

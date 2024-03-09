@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="064e8be2-272a-4b70-bdca-d8b32861b04b" name="Changes" comment="Firefox, MSEdge, and Google Chrome run continuously export tlac">
-      <change afterPath="$PROJECT_DIR$/webdriver_browsers_MKZBGIS_export-tlac.py" afterDir="false" />
+    <list default="true" id="064e8be2-272a-4b70-bdca-d8b32861b04b" name="Changes" comment="Firefox, MSEdge, and Google Chrome run continuously export tlac and Login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver_browsers_MKZBGIS_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver_browsers_MKZBGIS_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,7 @@
     "Python.test2.executor": "Run",
     "Python.tlac_ZBGIS.executor": "Run",
     "Python.webdriver_browsers_MKZBGIS_export-tlac.executor": "Run",
+    "Python.webdriver_browsers_MKZBGIS_login (1).executor": "Run",
     "Python.youtube_tutorial.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -69,7 +70,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.webdriver_browsers_MKZBGIS_export-tlac">
+  <component name="RunManager" selected="Python.Firefox_webdriver_MKZBGIS_export-tlac (1)">
     <configuration name="Chrome_webdriver_MKZBGIS_export-tlac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
@@ -180,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="webdriver_browsers_MKZBGIS_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="webdriver_browsers_MKZBGIS_login (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,7 +194,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\martin.kelko\PycharmProjects\selenium_automat\webdriver_browsers_MKZBGIS_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webdriver_browsers_MKZBGIS_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.webdriver_browsers_MKZBGIS_export-tlac" />
-        <item itemvalue="Python.Chrome_webdriver_MKZBGIS_export-tlac" />
         <item itemvalue="Python.Firefox_webdriver_MKZBGIS_export-tlac (1)" />
+        <item itemvalue="Python.webdriver_browsers_MKZBGIS_export-tlac" />
+        <item itemvalue="Python.webdriver_browsers_MKZBGIS_login (1)" />
+        <item itemvalue="Python.Chrome_webdriver_MKZBGIS_export-tlac" />
         <item itemvalue="Python.MSEdge_webdriver_MKZBGIS_export-tlac" />
-        <item itemvalue="Python.webdriver_browsers_MKZBGIS_login" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709901727547</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Firefox, MSEdge, and Google Chrome run continuously export tlac and Login">
+      <option name="closed" value="true" />
+      <created>1709903012296</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709903012296</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -341,6 +350,7 @@
     <MESSAGE value="sudocodes" />
     <MESSAGE value="Firefox, MSEdge, and Google Chrome run continuously" />
     <MESSAGE value="Firefox, MSEdge, and Google Chrome run continuously export tlac" />
-    <option name="LAST_COMMIT_MESSAGE" value="Firefox, MSEdge, and Google Chrome run continuously export tlac" />
+    <MESSAGE value="Firefox, MSEdge, and Google Chrome run continuously export tlac and Login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firefox, MSEdge, and Google Chrome run continuously export tlac and Login" />
   </component>
 </project>
