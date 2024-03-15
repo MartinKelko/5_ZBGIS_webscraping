@@ -1,8 +1,8 @@
 # Mozilla Firefox
 from selenium import webdriver
-from time import sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from time import sleep
 
 # Target URL
 url_FF = "https://test-zbgis2023.skgeodesy.sk/rts-next/sk/transform"
@@ -77,16 +77,17 @@ X_coordinate_FF_field = driver.find_element(By.CSS_SELECTOR, X_coordinate_FF_sel
 X_coordinate_FF_field.send_keys(X_coordinate_FF)
 sleep(5)
 
-# Click on "transform"
+# option 1 # Click on "transform"
 #transform_selector_FF = "button.mdc-button:nth-child(2) > span:nth-child(5)"
 #transform_FF = driver.find_element(By.CSS_SELECTOR, transform_selector_FF)
 #transform_FF.click()
 #sleep(5)
 
-# Hit Enter
-Enter_button_selector_FF = "#mat-input-3"
-Enter_button_FF = driver.find_element(By.CSS_SELECTOR, Enter_button_selector_FF)
-Enter_button_FF.send_keys(Keys.ENTER)
+# option 2 # Hit Enter
+transform_FF_selector = "#mat-input-2"
+transform_FF = driver.find_element(By.CSS_SELECTOR, transform_FF_selector)
+transform_FF.send_keys(Keys.ENTER)
+sleep(5)
 
 print("Successfully transformed in Mozilla Firefox browser")
 
