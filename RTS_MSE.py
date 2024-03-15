@@ -1,8 +1,9 @@
 # MSEdge
 from selenium import webdriver
-from time import sleep
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
+from time import sleep
 
 # Target URL
 url_MSE = "https://test-zbgis2023.skgeodesy.sk/rts-next/sk/transform"
@@ -16,6 +17,8 @@ driver = webdriver.Edge()
 driver.get(url_MSE)
 driver.maximize_window()
 sleep(2)
+
+#ActionChains(self.driver).send_keys(Keys.ENTER).perform()
 
 # Click on "insert_format"
 insert_format_selector_MSE = "#mat-select-value-1"
@@ -75,19 +78,19 @@ sleep(0.5)
 X_coordinate_MSE_selector = "/html/body/app-layout/mat-drawer-container/mat-drawer-content/app-transform/app-dropzone/div[1]/form/div[6]/mat-form-field/div[1]/div/div[2]/input"
 X_coordinate_MSE_field = driver.find_element(By.XPATH, X_coordinate_MSE_selector)
 X_coordinate_MSE_field.send_keys(X_coordinate_MSE)
-sleep(5)
+sleep(0.5)
 
 # Click on "transform"
-transform_selector_MSE = "mat-mdc-button-touch-target"
-transform_MSE = driver.find_element(By.__class__, transform_selector_MSE)
-transform_MSE.click()
-sleep(5)
+#transform_selector_MSE = "/html/body/app-layout/mat-drawer-container/mat-drawer-content/app-transform/app-dropzone/div[1]/form/div[7]/div/button[2]/span[2]"
+#transform_MSE = driver.find_element(By.XPATH, transform_selector_MSE)
+#transform_MSE.click()
+#sleep(10)
 
 # Hit Enter
-#Enter_button_selector_MSE = "#mat-input-4"
-#Enter_button_MSE = driver.find_element(By.CSS_SELECTOR, Enter_button_selector_MSE)
-#Enter_button_MSE.send_keys(Keys.ENTER)
-#sleep(5)
+transform_MSE_selector = "/html/body/app-layout/mat-drawer-container/mat-drawer-content/app-transform/app-dropzone/div[1]/form/div[6]/mat-form-field/div[1]/div/div[2]/input"
+transform_MSE = driver.find_element(By.XPATH, transform_MSE_selector)
+transform_MSE.send_keys(Keys.ENTER)
+sleep(5)
 
 print("Successfully transformed in Microsoft Edge browser")
 
