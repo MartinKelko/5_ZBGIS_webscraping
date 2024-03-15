@@ -54,10 +54,10 @@ output_Bessel_JTSK_CHR.click()
 sleep(0.5)
 
 # Click on "INPUT_Y_coordinates"
-input_Y_coordinates_selector_CHR = "#mat-input-1"
-input_Y_coordinates_CHR = driver.find_element(By.CSS_SELECTOR, input_Y_coordinates_selector_CHR)
-input_Y_coordinates_CHR.click()
-sleep(0.5)
+#input_Y_coordinates_selector_CHR = "#mat-input-1"
+#input_Y_coordinates_CHR = driver.find_element(By.CSS_SELECTOR, input_Y_coordinates_selector_CHR)
+#input_Y_coordinates_CHR.click()
+#sleep(0.5)
 
 # Y_coordinate_variable
 Y_coordinate_CHR_selector = "/html/body/app-layout/mat-drawer-container/mat-drawer-content/app-transform/app-dropzone/div[1]/form/div[5]/mat-form-field/div[1]/div/div[2]/input"
@@ -66,10 +66,10 @@ Y_coordinate_CHR_field.send_keys(Y_coordinate_CHR)
 sleep(0.5)
 
 # Click on "INPUT_X_coordinates"
-input_X_coordinates_selector_CHR = "/html/body/app-layout/mat-drawer-container/mat-drawer-content/app-transform/app-dropzone/div[1]/form/div[5]/mat-form-field/div[1]/div/div[2]/input"
-input_X_coordinates_CHR = driver.find_element(By.XPATH, input_X_coordinates_selector_CHR)
-input_X_coordinates_CHR.click()
-sleep(0.5)
+#input_X_coordinates_selector_CHR = "/html/body/app-layout/mat-drawer-container/mat-drawer-content/app-transform/app-dropzone/div[1]/form/div[5]/mat-form-field/div[1]/div/div[2]/input"
+#input_X_coordinates_CHR = driver.find_element(By.XPATH, input_X_coordinates_selector_CHR)
+#input_X_coordinates_CHR.click()
+#sleep(0.5)
 
 # X_coordinate_variable
 X_coordinate_CHR_selector = "/html/body/app-layout/mat-drawer-container/mat-drawer-content/app-transform/app-dropzone/div[1]/form/div[6]/mat-form-field/div[1]/div/div[2]/input"

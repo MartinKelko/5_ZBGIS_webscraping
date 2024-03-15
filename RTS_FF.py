@@ -54,10 +54,10 @@ output_Bessel_JTSK_FF.click()
 sleep(0.5)
 
 # Click on "INPUT_Y_coordinates"
-input_Y_coordinates_selector_FF = "#mat-input-1"
-input_Y_coordinates_FF = driver.find_element(By.CSS_SELECTOR, input_Y_coordinates_selector_FF)
-input_Y_coordinates_FF.click()
-sleep(0.5)
+#input_Y_coordinates_selector_FF = "#mat-input-1"
+#input_Y_coordinates_FF = driver.find_element(By.CSS_SELECTOR, input_Y_coordinates_selector_FF)
+#input_Y_coordinates_FF.click()
+#sleep(0.5)
 
 # Y_coordinate_variable
 Y_coordinate_FF_selector = "#mat-input-1"
@@ -66,10 +66,10 @@ Y_coordinate_FF_field.send_keys(Y_coordinate_FF)
 sleep(0.5)
 
 # Click on "INPUT_X_coordinates"
-input_X_coordinates_selector_FF = "#mat-input-2"
-input_X_coordinates_FF = driver.find_element(By.CSS_SELECTOR, input_X_coordinates_selector_FF)
-input_X_coordinates_FF.click()
-sleep(0.5)
+#input_X_coordinates_selector_FF = "#mat-input-2"
+#input_X_coordinates_FF = driver.find_element(By.CSS_SELECTOR, input_X_coordinates_selector_FF)
+#input_X_coordinates_FF.click()
+#sleep(0.5)
 
 # X_coordinate_variable
 X_coordinate_FF_selector = "#mat-input-2"

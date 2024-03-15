@@ -78,16 +78,16 @@ X_coordinate_MSE_field.send_keys(X_coordinate_MSE)
 sleep(5)
 
 # Click on "transform"
-#transform_selector_MSE = "body > app-layout > mat-drawer-container > mat-drawer-content > app-transform > app-dropzone > div.container.row > form > div:nth-child(7) > div > button:nth-child(2) > span.mat-mdc-button-touch-target"
-#transform_MSE = driver.find_element(By.CSS_SELECTOR, transform_selector_MSE)
-#transform_MSE.click()
-#leep(5)
+transform_selector_MSE = "mat-mdc-button-touch-target"
+transform_MSE = driver.find_element(By.__class__, transform_selector_MSE)
+transform_MSE.click()
+sleep(5)
 
 # Hit Enter
-Enter_button_selector_MSE = "#mat-input-4"
-Enter_button_MSE = driver.find_element(By.CSS_SELECTOR, Enter_button_selector_MSE)
-Enter_button_MSE.send_keys(Keys.ENTER)
-sleep(5)
+#Enter_button_selector_MSE = "#mat-input-4"
+#Enter_button_MSE = driver.find_element(By.CSS_SELECTOR, Enter_button_selector_MSE)
+#Enter_button_MSE.send_keys(Keys.ENTER)
+#sleep(5)
 
 print("Successfully transformed in Microsoft Edge browser")
 
