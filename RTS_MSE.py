@@ -1,7 +1,6 @@
 # MSEdge
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 
@@ -80,13 +79,13 @@ X_coordinate_MSE_field = driver.find_element(By.XPATH, X_coordinate_MSE_selector
 X_coordinate_MSE_field.send_keys(X_coordinate_MSE)
 sleep(0.5)
 
-# Click on "transform"
+# option 1 # Click on "transform" - NEFUNGUJE
 #transform_selector_MSE = "/html/body/app-layout/mat-drawer-container/mat-drawer-content/app-transform/app-dropzone/div[1]/form/div[7]/div/button[2]/span[2]"
 #transform_MSE = driver.find_element(By.XPATH, transform_selector_MSE)
 #transform_MSE.click()
 #sleep(10)
 
-# Hit Enter
+# option 2 # Hit Enter - FUNGUJE
 transform_MSE_selector = "/html/body/app-layout/mat-drawer-container/mat-drawer-content/app-transform/app-dropzone/div[1]/form/div[6]/mat-form-field/div[1]/div/div[2]/input"
 transform_MSE = driver.find_element(By.XPATH, transform_MSE_selector)
 transform_MSE.send_keys(Keys.ENTER)
