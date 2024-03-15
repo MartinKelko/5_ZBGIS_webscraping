@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="064e8be2-272a-4b70-bdca-d8b32861b04b" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RTS_FF.py" beforeDir="false" afterPath="$PROJECT_DIR$/RTS_FF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RTS_CHR.py" beforeDir="false" afterPath="$PROJECT_DIR$/RTS_CHR.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.RTS_FF">
+  <component name="RunManager" selected="Python.RTS_MSE (1)">
     <configuration name="MSEdge_webdriver_MKZBGIS_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
@@ -210,9 +210,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RTS_FF" />
         <item itemvalue="Python.RTS_MSE (1)" />
         <item itemvalue="Python.RTS_CHR" />
+        <item itemvalue="Python.RTS_FF" />
         <item itemvalue="Python.MSEdge_webdriver_MKZBGIS_login" />
         <item itemvalue="Python.RTS_MSE" />
       </list>
@@ -386,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710535710528</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update">
+      <option name="closed" value="true" />
+      <created>1710536136784</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710536136784</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

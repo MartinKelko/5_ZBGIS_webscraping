@@ -89,7 +89,7 @@ sleep(0.5)
 transform_MSE_selector = "/html/body/app-layout/mat-drawer-container/mat-drawer-content/app-transform/app-dropzone/div[1]/form/div[6]/mat-form-field/div[1]/div/div[2]/input"
 transform_MSE = driver.find_element(By.XPATH, transform_MSE_selector)
 transform_MSE.send_keys(Keys.ENTER)
-sleep(5)
+sleep(10)
 
 print("Successfully transformed in Microsoft Edge browser")
 

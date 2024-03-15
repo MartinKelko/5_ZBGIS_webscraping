@@ -1,8 +1,8 @@
 # Google Chrome
 from selenium import webdriver
-from time import sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from time import sleep
 
 # Target URL
 url_CHR = "https://test-zbgis2023.skgeodesy.sk/rts-next/sk/transform"
@@ -83,10 +83,11 @@ sleep(5)
 #transform_CHR.click()
 #sleep(50)
 
-# Hit Enter
-Enter_button_selector_CHR = "#mat-input-3"
-Enter_button_CHR = driver.find_element(By.CSS_SELECTOR, Enter_button_selector_CHR)
-Enter_button_CHR.send_keys(Keys.ENTER)
+# option 2 # Hit Enter
+transform_CHR_selector = "/html/body/app-layout/mat-drawer-container/mat-drawer-content/app-transform/app-dropzone/div[1]/form/div[6]/mat-form-field/div[1]/div/div[2]/input"
+transform_CHR = driver.find_element(By.XPATH, transform_CHR_selector)
+transform_CHR.send_keys(Keys.ENTER)
+sleep(5)
 
 print("Successfully transformed in Google Chrome browser")
 
