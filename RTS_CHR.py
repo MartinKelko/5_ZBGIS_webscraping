@@ -87,7 +87,7 @@ sleep(5)
 transform_CHR_selector = "/html/body/app-layout/mat-drawer-container/mat-drawer-content/app-transform/app-dropzone/div[1]/form/div[6]/mat-form-field/div[1]/div/div[2]/input"
 transform_CHR = driver.find_element(By.XPATH, transform_CHR_selector)
 transform_CHR.send_keys(Keys.ENTER)
-sleep(5)
+sleep(10)
 
 print("Successfully transformed in Google Chrome browser")
 
