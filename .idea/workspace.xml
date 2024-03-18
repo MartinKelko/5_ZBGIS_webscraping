@@ -74,7 +74,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.RTS_MSE (1)">
+  <component name="RunManager" selected="Python.main">
     <configuration name="MSEdge_webdriver_MKZBGIS_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
@@ -141,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RTS_MSE (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RTS_automate_testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,7 +154,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RTS_MSE.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\marti\PycharmProjects\selenium_automat\RTS_automate_testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RTS_MSE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RTS_automate_testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,7 +176,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\marti\PycharmProjects\selenium_automat\RTS_MSE.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\marti\PycharmProjects\selenium_automat\RTS_automate_testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RTS_MSE (1)" />
+        <item itemvalue="Python.RTS_automate_testing" />
         <item itemvalue="Python.RTS_CHR" />
         <item itemvalue="Python.RTS_FF" />
         <item itemvalue="Python.MSEdge_webdriver_MKZBGIS_login" />
-        <item itemvalue="Python.RTS_MSE" />
+        <item itemvalue="Python.RTS_automate_testing" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710538010605</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update">
+      <option name="closed" value="true" />
+      <created>1710587191068</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710587191068</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
