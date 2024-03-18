@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="064e8be2-272a-4b70-bdca-d8b32861b04b" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/Read_me" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,42 +40,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Chrome_webdriver_MKZBGIS_export-tlac.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Chrome_webdriver_MKZBGIS_login (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Firefox_ZBGIS (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Firefox_webdriver_MKZBGIS_export-tlac (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Firefox_webdriver_MKZBGIS_login (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.MKZBGIS.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MSEdge_webdriver_MKZBGIS_export-tlac.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MSEdge_webdriver_MKZBGIS_login (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.MSEdge_webdriver_MKZBGIS_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RTS_CHR.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RTS_FF.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RTS_MSE (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.RTS_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ZBGIS_test_case_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python.element_locators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.export_tlac.executor&quot;: &quot;Run&quot;,
-    &quot;Python.first_automation_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.logins_all_webdrivers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.new_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tlac_ZBGIS.executor&quot;: &quot;Run&quot;,
-    &quot;Python.webdriver_browsers_MKZBGIS_export-tlac.executor&quot;: &quot;Run&quot;,
-    &quot;Python.webdriver_browsers_MKZBGIS_login (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.youtube_tutorial.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/marti/PycharmProjects/selenium_automat&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Chrome_webdriver_MKZBGIS_export-tlac.executor": "Run",
+    "Python.Chrome_webdriver_MKZBGIS_login (1).executor": "Run",
+    "Python.Firefox_ZBGIS (1).executor": "Run",
+    "Python.Firefox_webdriver_MKZBGIS_export-tlac (1).executor": "Run",
+    "Python.Firefox_webdriver_MKZBGIS_login (1).executor": "Run",
+    "Python.MKZBGIS.executor": "Run",
+    "Python.MSEdge_webdriver_MKZBGIS_export-tlac.executor": "Run",
+    "Python.MSEdge_webdriver_MKZBGIS_login (1).executor": "Run",
+    "Python.MSEdge_webdriver_MKZBGIS_login.executor": "Run",
+    "Python.RTS_CHR.executor": "Run",
+    "Python.RTS_FF.executor": "Run",
+    "Python.RTS_MSE (1).executor": "Run",
+    "Python.RTS_automate_testing (1).executor": "Run",
+    "Python.RTS_test.executor": "Run",
+    "Python.ZBGIS_test_case_login.executor": "Run",
+    "Python.element_locators.executor": "Run",
+    "Python.export_tlac.executor": "Run",
+    "Python.first_automation_test.executor": "Run",
+    "Python.logins_all_webdrivers.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.new_test.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.tlac_ZBGIS.executor": "Run",
+    "Python.webdriver_browsers_MKZBGIS_export-tlac.executor": "Run",
+    "Python.webdriver_browsers_MKZBGIS_login (1).executor": "Run",
+    "Python.youtube_tutorial.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/marti/PycharmProjects/selenium_automat",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
-  <component name="RunManager" selected="Python.main">
+}]]></component>
+  <component name="RunManager" selected="Python.RTS_automate_testing (1)">
     <configuration name="MSEdge_webdriver_MKZBGIS_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_automat" />
       <option name="ENV_FILES" value="" />
@@ -133,6 +135,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RTS_FF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RTS_automate_testing (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="selenium_automat" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RTS_automate_testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RTS_automate_testing (1)" />
         <item itemvalue="Python.RTS_automate_testing" />
         <item itemvalue="Python.RTS_CHR" />
         <item itemvalue="Python.RTS_FF" />
         <item itemvalue="Python.MSEdge_webdriver_MKZBGIS_login" />
-        <item itemvalue="Python.RTS_automate_testing" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710587191068</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update">
+      <option name="closed" value="true" />
+      <created>1710739365816</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710739365816</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
