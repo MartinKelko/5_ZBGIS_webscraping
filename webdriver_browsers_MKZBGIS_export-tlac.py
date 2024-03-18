@@ -3,6 +3,7 @@ from time import sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
+# Mozilla Firefox
 # Target URL
 url_FF = "https://test-zbgis2023.skgeodesy.sk/mkzbgis-76ad218b-8807-4c9e-9697-e534b77197a9/sk/zakladna-mapa?pos=48.667687,19.297270,13"
 
@@ -57,6 +58,7 @@ print("Successfully exported to PDF")
 
 driver.quit()
 
+# Google Chrome
 # Target URL
 url_CHR = "https://test-zbgis2023.skgeodesy.sk/mkzbgis-76ad218b-8807-4c9e-9697-e534b77197a9/sk/zakladna-mapa?pos=48.667687,19.297270,13"
 
@@ -111,6 +113,7 @@ print("Successfully exported to PDF")
 
 driver.quit()
 
+# Microsoft Edge
 # Target URL
 url_MSE = "https://test-zbgis2023.skgeodesy.sk/mkzbgis-76ad218b-8807-4c9e-9697-e534b77197a9/sk/zakladna-mapa?pos=48.667687,19.297270,13"
 

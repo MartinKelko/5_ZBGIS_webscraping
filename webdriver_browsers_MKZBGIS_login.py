@@ -2,6 +2,7 @@ from selenium import webdriver
 from time import sleep
 from selenium.webdriver.common.by import By
 
+# Mozilla Firefox
 # Target URL
 url_FF = "https://test-zbgis2023.skgeodesy.sk/mkzbgis-76ad218b-8807-4c9e-9697-e534b77197a9/sk/zakladna-mapa/login?pos=48.800000,19.530000,8"
 
@@ -39,10 +40,11 @@ prihlasit_button_FF = driver.find_element(By.CSS_SELECTOR, prihlasit_button_sele
 prihlasit_button_FF.click()
 sleep(2)
 
-print("Logged in successfully in Mozzila Firefox")
+print("Logged in successfully in Mozilla Firefox")
 
 driver.quit()
 
+# Microsoft Edge
 # Target URL
 url_MSE = "https://test-zbgis2023.skgeodesy.sk/mkzbgis-76ad218b-8807-4c9e-9697-e534b77197a9/sk/zakladna-mapa/login?pos=48.800000,19.530000,8"
 
@@ -83,6 +85,7 @@ print("Logged in successfully in Microsoft Edge")
 
 driver.quit()
 
+# Google Chrome
 # Target URL
 url_CHR = "https://test-zbgis2023.skgeodesy.sk/mkzbgis-76ad218b-8807-4c9e-9697-e534b77197a9/sk/zakladna-mapa/login?pos=48.800000,19.530000,8"
 
