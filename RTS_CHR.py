@@ -1,9 +1,9 @@
-# Google Chrome
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 
+# Google Chrome
 # Target URL
 url_CHR = "https://test-zbgis2023.skgeodesy.sk/rts-next/sk/transform"
 

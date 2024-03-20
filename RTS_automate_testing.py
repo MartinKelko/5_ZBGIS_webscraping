@@ -96,11 +96,6 @@ print("Successfully transformed in Microsoft Edge browser")
 driver.quit()
 
 # Google Chrome
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from time import sleep
-
 # Target URL
 url_CHR = "https://test-zbgis2023.skgeodesy.sk/rts-next/sk/transform"
 
@@ -191,11 +186,6 @@ print("Successfully transformed in Google Chrome browser")
 driver.quit()
 
 # Mozilla Firefox
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from time import sleep
-
 # Target URL
 url_FF = "https://test-zbgis2023.skgeodesy.sk/rts-next/sk/transform"
 
