@@ -1,7 +1,14 @@
+import sys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from time import sleep
+
+from calc_jtsk_to_jtsk03 import KonverznaKalkulacka
+
+calc = KonverznaKalkulacka("530212,396", "530213,665")
+calc.bigger_is()
+sys.exit()
 
 # Microsoft Edge
 # Target URL
